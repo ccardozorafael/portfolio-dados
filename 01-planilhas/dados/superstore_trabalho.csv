@@ -7,3 +7,8 @@ Não há colunas com células vazias
 O período coberto nessa tabela é de 03/01/14 até 30/12/17
 
 "Percebo que a tabela está totalmente limpa, não há células vazias, não há inconsistência de informações"
+
+Foi-me informado que códigos postais estadunidenses podem começar em zero. 
+O código postal está em número (geral). Corrigido e colocado zero na frente onde é devido.
+Coluna de moedas foi convertida de texto para USD.
+Coluna de desconto foi convertida de texto para percentil. 
