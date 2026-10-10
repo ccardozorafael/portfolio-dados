@@ -12,3 +12,6 @@ Plano de Estudo de 12 semanas: Planilhas, SQL, Python, BI, Tableau e projeto fin
 
 ## Sobre mim
 Estou me preparando para atuar como analist ade dados. Aqui registro tudo que pratico
+
+## Observações
+- A coluna "margin" é composta da fórmula profit/sales
