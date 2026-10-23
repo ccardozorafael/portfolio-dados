@@ -16,4 +16,5 @@ Estou me preparando para atuar como analist ade dados. Aqui registro tudo que pr
 ## Observações
 - A coluna "margin" é composta da fórmula profit/sales
 - Foram excluídas 6 linhas por inconsistência de informações e coluna de informações impossíveis de recuperar. As linhas excluídas foram lançadas em nova aba. 
-
+- Aba análise criada, indicadores para porte de vendas criado. Colunas para porte de venda e observações de venda criadas. Explicações na aba Exploração
+- Depois de muito investigar os dados, foi percebido que há muitas linhas comprometidas com dados mal inseridos. Uma explicação mais detalhada foi inserida na aba Exploração e grifada em Amarelo (célula B27)
