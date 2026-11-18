@@ -4,3 +4,5 @@
 __pycache__/
 .venv/
 .~lock.*#
+02-sql/dados
+*.db
