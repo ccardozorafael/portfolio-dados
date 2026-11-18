@@ -1,0 +1,13 @@
+# Dicionário de Dados - Olist E-Commerce
+
+| Arquivo | Linhas | Chave Primária (PK) | Notas |
+| :--- | :--- | :--- | :--- |
+| olist_customers | 99.442 | customer_id | customer_unique_id identifica o cliente real. |
+| olist_order_items | 112.671 | order_id + order_item_id | Um pedido tem múltiplos itens. |
+| olist_geolocation | 1.000.164 | (Nenhuma única) | Chave composta por CEP + Lat/Lng. |
+| olist_order_payments | 103.887 | order_id + payment_sequential | Um pedido pode ter múltiplos pagamentos. |
+| olist_order_reviews | 104.720 | review_id | Conecta-se ao order_id. |
+| olist_orders | 99.442 | order_id | Tabela central (fatos). |
+| olist_products | 32.952 | product_id | Contém erros de grafia originais (ex: lenght). |
+| olist_sellers | 3.096 | seller_id | Vendedores parceiros. |
+| product_category_translation | 71 | product_category_name | Dicionário PT -> EN. |
