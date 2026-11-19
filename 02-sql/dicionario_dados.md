@@ -4,9 +4,9 @@
 | :--- | :--- | :--- | :--- |
 | olist_customers | 99.442 | customer_id | customer_unique_id identifica o cliente real. |
 | olist_order_items | 112.671 | order_id + order_item_id | Um pedido tem múltiplos itens. |
-| olist_geolocation | 1.000.164 | (Nenhuma única) | Chave composta por CEP + Lat/Lng. |
+| olist_geolocation | 1.000.164 | (Nenhuma única) | Teorica chave composta (CEP + Lat/Lng.) |
 | olist_order_payments | 103.887 | order_id + payment_sequential | Um pedido pode ter múltiplos pagamentos. |
-| olist_order_reviews | 99224 | review_id | Conecta-se ao order_id. |
+| olist_order_reviews | 99224 | (Nenhuma) | Conecta-se ao order_id. review_id pode ser PK |
 | olist_orders | 99.442 | order_id | Tabela central (fatos). |
 | olist_products | 32.952 | product_id | Contém erros de grafia originais (ex: lenght). |
 | olist_sellers | 3.096 | seller_id | Vendedores parceiros. |
